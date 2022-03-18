@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(203, 221, 215);
+}
+
+form .leftinho{
+
+    position: relative;
+    float: left;
+    padding: 30px;
+    width: 400px;
+    left: 175px;
+}
+
+form .direitinho{
+    position: relative;
+    float: right;
+    width: auto;
+    padding: 30px;
+    left: -175px;
+}
+input{
+    width: 20rem;
+    padding: 0.3rem;
+    margin: 10px;
+}
+.botao{
+    position: relative;
+    top: 400px;
+    width: 2000px;
+    margin: 40px;
+}
+input:focus{
+    background-color: transparent;
+}
+select{
+    width: 20.9rem;
+    padding: 0.3rem;
+    margin: 10px;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    margin: 60px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: rgb(197, 91, 91);
+}
+#submit:hover{
+    background-color: greenyellow;
+}
+
+#estado{
+    height: 70px;
+    width: 328px;
+    margin-left: 10px;
+}
+input{
+    border-radius: 10px;
+}
+input:hover{
+    background-color: rgba(47, 255, 158, 0.452);
+}
+select{
+    border-radius: 10px;
+}
+select:hover{
+    background-color: rgba(47, 255, 158, 0.452);
+}
